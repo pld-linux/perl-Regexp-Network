@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Regexp
 %define	pnam	Network
-Summary:	Regexp::Network perl module - useful routines for DHCP
-Summary(pl):	Modu³ perla Regexp::Network - procedury przydatne do DHCP
+Summary:	Regexp::Network Perl module - useful routines for DHCP
+Summary(pl):	Modu³ Perla Regexp::Network - procedury przydatne do DHCP
 Name:		perl-Regexp-Network
 Version:	1.3
 Release:	2
