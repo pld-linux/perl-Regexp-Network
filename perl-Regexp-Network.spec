@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Regexp
-%define	pnam	Network
+%define		pdir	Regexp
+%define		pnam	Network
 Summary:	Regexp::Network Perl module - useful routines for DHCP
 Summary(pl):	Modu³ Perla Regexp::Network - procedury przydatne do DHCP
 Name:		perl-Regexp-Network
