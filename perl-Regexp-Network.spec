@@ -31,7 +31,7 @@ analizy logów i danych zwi±zanych z sieci±.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
