@@ -5,7 +5,7 @@ Summary:	Regexp::Network perl module - useful routines for DHCP
 Summary(pl):	Modu³ perla Regexp::Network - procedury przydatne do DHCP
 Name:		perl-Regexp-Network
 Version:	1.3
-Release:	1
+Release:	2
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
