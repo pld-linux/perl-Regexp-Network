@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_without	tests	# do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Regexp
 %define	pnam	Network
@@ -6,7 +10,8 @@ Summary(pl):	Modu³ Perla Regexp::Network - procedury przydatne do DHCP
 Name:		perl-Regexp-Network
 Version:	1.3
 Release:	2
-License:	Artistic or GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	2ebba2ba5916a061507bcdc72c95f3a4
@@ -33,6 +38,8 @@ analizy logów i danych zwi±zanych z sieci±.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
+
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
