@@ -29,7 +29,7 @@ analizy logów i danych zwi±zanych z sieci±.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
