@@ -9,7 +9,7 @@ Release:	2
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-BuildRequires:	perl >= 5.6
+BuildRequires:	perl-devel >= 5.6
 BuildRequires:	perl-Memoize >= 1.00
 BuildRequires:	perl-Module-Info >= 0.12
 BuildRequires:	perl-Test-Simple >= 0.42
