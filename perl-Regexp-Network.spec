@@ -6,7 +6,7 @@
 %define		pdir	Regexp
 %define		pnam	Network
 Summary:	Regexp::Network Perl module - useful routines for DHCP
-Summary(pl):	Modu³ Perla Regexp::Network - procedury przydatne do DHCP
+Summary(pl.UTF-8):   ModuÅ‚ Perla Regexp::Network - procedury przydatne do DHCP
 Name:		perl-Regexp-Network
 Version:	1.3
 Release:	3
@@ -27,9 +27,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Regexp::Network module provides useful routines and constants and
 stuff for analysing assorted network log files and data.
 
-%description -l pl
-Modu³ Regexp::Network udostêpnia procedury, sta³e itp. przydatne do
-analizy logów i danych zwi±zanych z sieci±.
+%description -l pl.UTF-8
+ModuÅ‚ Regexp::Network udostÄ™pnia procedury, staÅ‚e itp. przydatne do
+analizy logÃ³w i danych zwiÄ…zanych z sieciÄ….
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
