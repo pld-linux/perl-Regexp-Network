@@ -13,7 +13,7 @@ Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://backpan.perl.org/authors/id/S/SP/SPOON/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	2ebba2ba5916a061507bcdc72c95f3a4
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-Memoize >= 1.00
