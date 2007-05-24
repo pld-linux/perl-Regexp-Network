@@ -15,10 +15,11 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://backpan.perl.org/authors/id/S/SP/SPOON/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	2ebba2ba5916a061507bcdc72c95f3a4
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://backpan.perl.org/authors/id/S/SP/SPOON/Regexp-Network-1.3.readme
 BuildRequires:	perl-Memoize >= 1.00
 BuildRequires:	perl-Module-Info >= 0.12
 BuildRequires:	perl-Test-Simple >= 0.42
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
